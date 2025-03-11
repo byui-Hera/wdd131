@@ -129,7 +129,7 @@ footer {
 }
 
 
-/* Basic styles for the navigation menu */
+
 #navmenu {
     display: none;
 }
@@ -138,12 +138,12 @@ footer {
     display: block;
 }
 
-/* Styles for the hamburger button */
+
 #hambutton {
     display: none;
 }
 
-/* Show the hamburger button in mobile view */
+
 @media (max-width: 768px) {
     #hambutton {
         display: block;
