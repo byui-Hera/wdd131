@@ -12,7 +12,6 @@ document.querySelector('#lastModified').textContent = `Last Modification: ${docu
 const hambutton = document.querySelector('#hambutton');
 
 hambutton.addEventListener('click', () => {
-    document.querySelector('h1').classList.toggle('show');
     document.querySelector('#navmenu').classList.toggle('show');
     hambutton.classList.toggle('show');
 });

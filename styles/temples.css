@@ -7,11 +7,9 @@
     --yellow: rgba(255, 255, 0, 1);
 }
 
-
-*{
+* {
     margin: 0;
 }
-
 
 html,
 body {
@@ -75,12 +73,6 @@ nav a:active {
     color: var(--yellow);
     font-weight: 700;
 }
- 
-nav a:hover~#navmenu~#hambutton {
-    background-color: var(--yellow);
-    color: #000;
-}
-
 
 main {
     max-width: 800px;
@@ -128,8 +120,6 @@ footer {
     margin-bottom: 0cap;
 }
 
-
-
 #navmenu {
     display: none;
 }
@@ -137,12 +127,6 @@ footer {
 #navmenu.show {
     display: block;
 }
-
-
-#hambutton {
-    display: none;
-}
-
 
 @media (max-width: 768px) {
     #hambutton {
@@ -157,4 +141,3 @@ footer {
         display: block;
     }
 }
-
