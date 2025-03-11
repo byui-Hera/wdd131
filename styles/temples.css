@@ -37,12 +37,12 @@ h1 {
 
 #hambutton {
     display: block;
-    font-size: 3 rem;
+    font-size: 3rem;
     background-color: var(--purple);
     text-decoration: none;
     color: white;
     border: none;
-    padding: 0.5 rem;
+    padding: 0.5rem;
     cursor: pointer;
     position: absolute;
     top: 0;
