@@ -81,18 +81,6 @@ nav a:hover~#navmenu~#hambutton {
     color: #000;
 }
 
-nav.show {
-    width: 100%;
-}
-
-h1.show {
-    display: none;
-}
-
-.show a {
-    display: block;
-    text-align: center;
-}
 
 main {
     max-width: 800px;
@@ -138,5 +126,35 @@ footer {
 
 .handler {
     margin-bottom: 0cap;
+}
+
+
+/* Basic styles for the navigation menu */
+#navmenu {
+    display: none;
+}
+
+#navmenu.show {
+    display: block;
+}
+
+/* Styles for the hamburger button */
+#hambutton {
+    display: none;
+}
+
+/* Show the hamburger button in mobile view */
+@media (max-width: 768px) {
+    #hambutton {
+        display: block;
+    }
+
+    #navmenu {
+        display: none;
+    }
+
+    #navmenu.show {
+        display: block;
+    }
 }
 

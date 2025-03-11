@@ -1,7 +1,11 @@
+// Set the current year in the footer
 let d = new Date();
 document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+
+// Set the last modified date in the footer
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
 
+// Hamburger menu functionality
 const hambutton = document.querySelector('#hambutton');
 
 hambutton.addEventListener('click', () => {
@@ -10,6 +14,7 @@ hambutton.addEventListener('click', () => {
     hambutton.classList.toggle('show');
 });
 
+// Function to toggle active class
 function toggleActive(element) {
     element.classList.toggle("active");
 }

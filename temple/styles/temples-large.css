@@ -19,4 +19,14 @@
     }
 }
 
+#navmenu {
+    display: flex;
+    gap: 1rem;
+    /* Adjust the gap between the links as needed */
+}
 
+#navmenu a {
+    text-decoration: none;
+    color: inherit;
+    /* Adjust the color as needed */
+}
