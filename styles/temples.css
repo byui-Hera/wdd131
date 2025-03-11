@@ -31,7 +31,10 @@ header {
 
 h1 {
     padding: 1rem;
+    display: flex;
 }
+
+
 
 #hambutton {
     display: block;
@@ -141,3 +144,6 @@ footer {
         display: block;
     }
 }
+
+
+
