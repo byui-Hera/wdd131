@@ -1,6 +1,6 @@
 :root {
     --red: rgba(210, 16, 52, 1);
-    --black: rgb(0, 8, 5);
+    --black: rgb(1, 12, 8);
 }
 
 * {
@@ -131,4 +131,3 @@ h2 {
         display: none;
     }
 }
-
