@@ -94,3 +94,5 @@ function createTempleCard() {
         document.querySelector(".res-grid").appendChild(card);
     });
 }
+
+
