@@ -530,4 +530,8 @@ body {
 }
 
 
-
+/* Adjusting <h3> color for better contrast */
+h3 {
+    color: #333333;
+    /* Replace black with dark gray */
+}
