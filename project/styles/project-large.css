@@ -1,0 +1,126 @@
+@media(max-width: 768px) {
+    .hamburger {
+        display: block !important;
+        z-index: 1000;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block !important;
+        z-index: 1000;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+
+
+
+/* ======= PORTFOLIO PAGE ======= */
+
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======= HOME PAGE ======= */
+
+
+
+
+@media (max-width: 768px) {
+
+    .grid-layout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .client-logos-container {
+        gap: 20px;
+    }
+
+    .client-logo {
+        width: 120px;
+        height: 60px;
+    }
+
+    .nav-menu {
+        background-color: rgba(0, 0, 0, 0.812);
+    }
+
+    .nav-item:hover {
+        background-color: white;
+    }
+}
+
+
+/* ======= SERVICES PAGE ======= */
+
+@media (max-width: 768px) {
+    .client-logos-container {
+        gap: 20px;
+
+    }
+
+    .client-logo {
+        width: 120px;
+        height: 60px;
+    }
+}

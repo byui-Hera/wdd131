@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Final Project">
+    <meta name="author" content="Hera Hysi">
+    <!-- JS -->
+    <script src="scripts/project.js" defer></script>
+
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Meta Tags for Social Media -->
+    <meta property="og:site_name" content="TopSide Signs">
+    <meta property="og:title" content="TopSide Signs - Your Signage Solution">
+    <meta property="og:description"
+        content="TopSide Signs - Your Signage Solution. We specialize in creating high-quality, custom signs for businesses of all sizes. Let us help you make a lasting impression.">
+    <meta property="og:url" content="https://byui-hera.github.io/wdd231/project/index.html">
+    <meta property="og:type" content="website">
+
+    <title>Project - Hera Hysi WDD 131</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding">TopSide Signs</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- VIDEO -->
+    <div id="hero" class="hero">
+        <video class="hero-video" autoplay muted loop loading="lazy">
+            <source src="images/hero (2).mp4" type="video/mp4">
+        </video>
+        <div class="hero-text">
+            <h1 class="page-title">Welcome to TopSide Signs</h1>
+            <p class="page-title">Let’s take your business to the next level.</p>
+            <a href="#main" class="hero-btn">Let’s Go</a>
+        </div>
+    </div> 
+
+        <main class="main" id="main">
+        <h1 class="page-title">Who We Are</h1>
+
+        <div class="grid-layout">
+            <div class="item item1">
+                <div class="overlay">
+                    <p class="page-title">More than 20+ years of experience in teh signage industry.</p>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="overlay">
+                    <p class="text">We take care of the planning and design, as well as the fabrication and mounting.
+                    </p>
+                </div>
+            </div>
+            <div class="item full-width-item">
+                <div class="overlay">
+                    <h2 class="page-title">We believe in excellence and dedication in <u>every project</u>. With our
+                        expertise, your brand will stand out, leaving a lasting impression.</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- CLIENTS -->
+        <div class="clients-section">
+            <h1 class="page-title">Our clients</h1>
+            <h3>Logos moving from right to left</h3>
+            <div class="client-logos-container">
+                <div class="client-logos-wrapper">
+                    <!-- Logos go in here -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; <span id="year"></span> Hera Hysi | Albania</p>
+        <p class="modification">Last modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
